@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1 {
+        font-size:500%;
+        color:whitesmoke;
+        text-align: center;
+        position: relative; 
+        top: -50px; 
+        opacity: 0;
+        animation: slideIn 1s ease-out forwards;
+    }
+
+    .border {
+        position: absolute;
+        left: 25%;
+        top: 35%;
+        width: 990px;
+        height: 400px;
+        border: 2px solid whitesmoke;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        animation: fadein 3s ease-out forwards;
+    }
+
+
+    @keyframes slideIn {
+        from {
+            top: -50px;
+            opacity: 0;
+        }
+        to {
+            top: 60px;
+            opacity: 1;
+        }
+    }
+
+    @keyframes fadein {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+</style>
+<body style="background-color:rgb(29, 29, 29)">
+    <h1 class="text">Services <span style="background-color: brown; padding: 20px; border-radius: 10px;">section</span></h1>
+    <div class="border">
+        <div style="font-size: 25px; color: whitesmoke; margin-top: 105px; font-family: Verdana;">
+            <p> Videography</p>
+            <p> Editing</p>
+            <p> Instrumentalist</p>
+            <p> Drone operator</p>
+        </div>
+    </div>
+</body>
+</html>
