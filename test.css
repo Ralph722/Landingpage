@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('planet-pixel-art-4k-3p.jpg');
+    background-size: cover;
+    
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.link {
+    overflow: hidden;
+    background-color: brown;
+}
+
+.link a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.link a:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 10px;
+}
